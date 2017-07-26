@@ -1,0 +1,22 @@
+html {
+  background-color: black;
+  color: lightblue;
+}
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#mrCageTheMagnificent {
+  height: 10vh;
+  width: 10vw;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: limegreen;
+}
