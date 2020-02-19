@@ -1,19 +1,83 @@
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
-    <title>Farts</title>
+    <meta charset="utf-8">
+    <link rel="favicon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="milligram.css">
+    <title>My Website</title>
   </head>
   <body>
-    <h1>Farts</h1>
-    <nav>
-      <a class="button" href="index.html">Home</a>
-      <a class="button" href="pics.html">Pics</a>
-      <a class="button" href="bill.html">Bill's House</a>
-    </nav>
-    <div id="mainContent">Bazinga</div>
-    <div class="red">Blah and things and content woo</div>
-    <div class="red">Other stuff omg such content wow</div>
-    <div class="green">Stuff and things omg wow this is awesome</div>
+    <div id="wrapper">
+      <header>
+        <img id="logo" src="logo.png" alt="HTML5">
+        <h1>My Website</h1>
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown"><a class="dropdownLink">About</a>
+            <div class="aboutDropdown">
+              <a href="#">About Me</a>
+              <a href="#">About CEO</a>
+              <a href="#">Portfolio</a>
+              <a href="#">Projects</a>
+            </div>
+          </li>
+          <li><a href="index.html">Services</a></li>
+          <li><a href="index.html">Gallery</a></li>
+          <li><a href="index.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div id="showcase" src="showcase.jpg" alt="Showcase">
+        <h2>Affordable Professional Web Design for Computer Science Students</h2>
+      </div>
+
+      <main>
+        <div class="mainLeft">
+          <h3>Welcome</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor augue mauris augue neque. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Euismod in pellentesque massa placerat duis ultricies lacus. Ut enim blandit volutpat maecenas volutpat blandit aliquam. Non diam phasellus vestibulum lorem sed risus ultricies tristique.</p>
+        </div>
+
+        <div class="mainRight">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor augue mauris augue neque.</p>
+        </div>
+      </main>
+
+      <div class="button">
+        <a href="#">Read More</a>
+      </div>
+
+      <section class="threeCol">
+
+        <div class="card">
+          <img class="cardImg" src="logo_brush.png" alt="Design">
+          <h4>Graphic Design</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        </div>
+
+        <div class="card">
+          <img class="cardImg" src="logo_html.png" alt="HTML">
+          <h4>HTML5 Markup</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        </div>
+
+        <div class="card">
+          <img class="cardImg" src="logo_css.png" alt="CSS">
+          <h4>CSS3 Styling</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        </div>
+
+      </section>
+
+      <footer>
+        <p>Copyright &copy; 2020 David Vicklund</p>
+        <script>
+          var date = document.lastModified;
+          document.write(date);
+        </script>
+      </footer>
+    </div>
   </body>
 </html>
